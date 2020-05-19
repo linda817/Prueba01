@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:300,400,500,600,700');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: var(--texto);
+}
+
+:root{
+	--azul: #41c1fe;
+	--oscuro: #383838;
+	--gris: #f3f3f3;
+	--titulos: #3c3838;
+	--subtitulo: #888585;
+	--texto: #898989;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.btn-default{
+	background: var(--azul);
+	color: #fff !important;
+	padding: 17px 45px !important;
+	border: 0;
+	font-size: 14px;
+	font-weight: 600 !important;
+	border-radius: 100px;
+	transition: all 0.3s ease-in-out;
+}
+.btn-default:hover{
+	transform: scale(0.9);
+	transition: all 0.3s ease-in-out;
+}
+
+#navbar .btn-default{
+	padding: 8px 35px !important;
+}
+
+#top{
+	background-image: url("../img/slider1_slide2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 15%;
+}
+
+#top h2{
+	color: var(--gris);
+	text-align: center;
+	font-size: 70px;
+	padding-top: 40%;
+	margin-bottom: 30px;
+}
+
+#top h4{
+	text-align: center;
+}
+
+#action{
+	background-image: url("../img/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-bottom: 15%;
+}
+
+.titulogris{
+	color: var(--subtitulo);
+	font-size: 12px;
+}
+
+#ofertas,
+#tips{
+	margin: 70px;
+}
+
+.titulo{
+	font-size: 60px;
+	color: var(--titulos);
+	font-weight: 700;
+}
+
+
+
+
+
+
+.tarjeta{
+	background-color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+.tarjeta h3{
+	color: #273c61;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.tarjeta h4{
+	font-size: 18px;
+	font-weight: 400;
+}
+h4.price{
+	color: #fe4170;
+	font-size: 48px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+.tarjeta ul{
+	font-size: 18px;
+	font-weight: 400;
+	list-style: none;
+	padding: 0;
+}
+.tarjeta ul li{
+	margin-bottom: 10px;
+}
+.tarjeta .btn-default{
+	width: 100%;
+	font-size: 18px;
+	margin-top: 60px;
+}
+.tarjeta .btn-default:hover{
+	transform: scale(1);
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #959fac !important;
+}
+
+
+#action h2{
+	padding-top: 20%;
+	color: var(--gris);
+	font-size: 40px;
+}
+
+#sign{
+	background-color: var(--azul);
+}
+
+#sign h3{
+	color: #fff;
+}
+
+footer{
+	background-color: var(--oscuro);
+}
+
+
+
+
